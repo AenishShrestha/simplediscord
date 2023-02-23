@@ -269,6 +269,14 @@ MarkupSafe = ">=2.0"
 i18n = ["Babel (>=2.7)"]
 
 [[package]]
+name = "keepalive"
+version = "0.5"
+description = "urllib keepalive support for python"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "markupsafe"
 version = "2.1.2"
 description = "Safely add untrusted strings to HTML/XML markup."
@@ -608,7 +616,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.10.0,<3.11"
-content-hash = "02c8ead41790f0b607fa4441052cae8023772b6ea011711f6752cfadbf34ba10"
+content-hash = "6688d01d7038936413438f579dcb3de60d9a78baaab1a18ecaffb701f82de2e6"
 
 [metadata.files]
 aiohttp = []
@@ -633,6 +641,7 @@ iso8601 = []
 itsdangerous = []
 jedi = []
 jinja2 = []
+keepalive = []
 markupsafe = []
 multidict = []
 numpy = []
